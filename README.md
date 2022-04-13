@@ -1,5 +1,5 @@
 # vite-vue3-svg-icon
-[English](https://github.com/xianyongwen/vite-vue3-svg-icon/blob/master/README.md) | 中文说明
+[中文说明](https://github.com/xianyongwen/vite-vue3-svg-icon/blob/master/README-zh.md) | English
 
 ## Description
 1. Using vite's features of importing resources as strings, we can easily rander svg icon with svg files without any additional plug-ins.
@@ -41,6 +41,7 @@ createApp(App)
       :clickStop="true"
       :iconClass="import('./assets/svg/disconnet.svg?raw')"
       @click="childClick"/>
+    <!-- use alias path -->
     <svgIcon
       :iconClass="import('./assets/svg/ameFolder.svg?raw')"/>
   </div>

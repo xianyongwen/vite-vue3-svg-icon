@@ -1,6 +1,6 @@
 # vite-vue3-svg-icon
-English ｜
-[中文说明](https://github.com/xianyongwen/vite-vue3-svg-icon/blob/master/README-zh.md)
+中文说明 ｜
+[English](https://github.com/xianyongwen/vite-vue3-svg-icon/blob/master/README.md)
 
 ## 描述
 1、利用vite能够将资源引入为字符串的功能，我们能便捷地使用svg文件渲染svg图标，无需其他额外插件。  

@@ -7,7 +7,7 @@
     "isolatedModules": true,
     "noImplicitAny": false,
     "jsx": "preserve",
-    "importHelpers": true,
+    "importHelpers": false,
     "moduleResolution": "node",
     "skipLibCheck": true,
     "esModuleInterop": true,
