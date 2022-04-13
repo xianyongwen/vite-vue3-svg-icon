@@ -13,13 +13,18 @@ jobs:
   # This workflow contains a single job called "build"
   test:
     # The type of runner that the job will run on
-    runs-on: macOS-latest
+    runs-on: ubuntu-18.04
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - name: checkout
         uses: actions/checkout@v3
+        
+      - name: Use Node.js@v14.17.x
+        uses: actions/setup-node@v1
+        with:
+          node-version: '14.17.x'
         
       - name: Run install
         run: yarn
