@@ -43,7 +43,7 @@ createApp(App)
       @click="childClick"/>
     <!-- use alias path -->
     <svgIcon
-      :iconClass="import('./assets/svg/ameFolder.svg?raw')"/>
+      :iconClass="import('SVG_PATH/ameFolder.svg?raw')"/>
   </div>
 </template>
 

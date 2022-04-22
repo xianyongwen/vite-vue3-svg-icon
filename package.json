@@ -1,7 +1,7 @@
 {
   "name": "vite-vue3-svg-icon",
   "private": false,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a vue3 svg icon component compatible with vite",
   "main": "./dist/svg-icon.umd.js",
   "repository": {
