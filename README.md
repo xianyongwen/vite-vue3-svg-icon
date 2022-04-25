@@ -34,15 +34,15 @@ createApp(App)
 ```
 <template>
   <div @click="fatherClick">
-    <svgIcon
+    <svg-icon
       :iconClass="import('./assets/svg/add-circle.svg?raw')"
       @click="childClick"/>
-    <svgIcon
+    <svg-icon
       :clickStop="true"
       :iconClass="import('./assets/svg/disconnet.svg?raw')"
       @click="childClick"/>
     <!-- use alias path -->
-    <svgIcon
+    <svg-icon
       :iconClass="import('SVG_PATH/ameFolder.svg?raw')"/>
   </div>
 </template>
