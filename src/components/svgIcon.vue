@@ -33,7 +33,7 @@ let svgModuleDefault: any = ''
 const reflashSvg = async() => {
   try {
     let svgModule: any =  await props.iconClass
-    svgModuleDefault = svgModule.default
+    svgModuleDefault = svgModule.default.replace('\r', '').replace('\n', '')
   } catch (error) {
     console.error('can not find svg file')
     return
