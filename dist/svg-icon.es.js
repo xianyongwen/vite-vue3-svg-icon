@@ -23,7 +23,8 @@ const _sfc_main = /* @__PURE__ */ defineComponent({
     const reflashSvg = async () => {
       try {
         let svgModule = await props.iconClass;
-        svgModuleDefault = svgModule.default.replace("\r", "").replace("\n", "");
+        svgModuleDefault = svgModule.default.replace(/\r/g, "");
+        svgModuleDefault = svgModuleDefault.replace(/\n/g, "");
       } catch (error) {
         console.error("can not find svg file");
         return;
